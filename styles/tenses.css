@@ -15,7 +15,15 @@
     align-items: center;
     padding: 0rem calc((100vw - 1300px) / 2);
   }
-  
+
+  .spanishMeat, .examples, ul{
+    list-style-type: none;
+  }
+
+ .examples .extrahelp, li{
+    padding: 10px;
+  }
+
   .logo {
     color: #000;
     font-size: 1.5rem;
@@ -81,13 +89,14 @@
     color: #000;
   }
 
-  a {
+  .spanishMeat a {
     all: unset;
   }
 
   .spanishMeat p {
     font-size: 20px;
     overflow-wrap: break-word;
+    padding: 0px;
   }
   
   .column-right {
@@ -100,6 +109,22 @@
   .hero-image {
     width: 100%;
     height: 100%;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }
   
   @media screen and (max-width: 768px) {
