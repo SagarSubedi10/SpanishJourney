@@ -9,7 +9,7 @@ on:
   build:
     runs-on: ubuntu-latest
 steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
 - name: Upload to S3
         run: |
           aws s3 mb s3://spanishjourney
