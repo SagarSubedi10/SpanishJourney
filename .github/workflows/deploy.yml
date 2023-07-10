@@ -8,6 +8,8 @@ workflow_dispatch:
 
 jobs:
 
+  CICD deploys
+  
 build:
     runs-on: ubuntu-latest
     steps:
