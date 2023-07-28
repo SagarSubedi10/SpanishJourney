@@ -2,7 +2,7 @@
 const viewCountElement = document.getElementById('viewCount');
 
 // Make a GET request to your API endpoint
-fetch('https://f4bddx6tqd5kwaacn7y5krc3vi0pcbiw.lambda-url.us-east-1.on.aws/')
+fetch('https://jk2e1gvcwj.execute-api.us-east-1.amazonaws.com')
   .then(response => response.json())
   .then(data => {
     // Extract the view count from the response
