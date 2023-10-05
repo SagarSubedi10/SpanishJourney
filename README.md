@@ -1,16 +1,17 @@
 # Spanish In the Cloud
 
-Lanague Learning Web Application: Python, JavaScript, HTML, CSS
+Lanague Learning Web Application: 
 
 Secured with CloudFront, uses Custom Domain and Certificate
 
 Lambda utilizing API to gather data from DynamoDB
 
-Infrastructure as Code: Terraform
+Rebuilt using Terraform and CloudFormation
+
+Utiliing Github Actions to create CI/CD for frontend and backend changes 
 
 Source Control: Git
 
-CI/CD: Github Actions
 
 ---------------------------------------------------
 
